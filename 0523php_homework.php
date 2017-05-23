@@ -14,7 +14,7 @@ do {
             case 3:
             case 5:
             case 7:
-                echo $number . " is prime <br/>";
+                echo $number ;
 //                $sum += $number;
                 break;
             default:
@@ -22,7 +22,7 @@ do {
                     if ($number % 3 != 0) {
                         if ($number % 5 != 0) {
                             if ($number % 7 != 0) {
-                                echo $number . " is prime<br/>";
+                                echo $number ;
                                 $sum += $number;
                             }
                         }
